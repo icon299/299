@@ -1,32 +1,375 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>299</title>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Сайты для предпринимателей</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:image" content="image/01.jpg" />
 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+        <!-- Fonts -->
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-<h1></h1>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-<script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter34885860 = new Ya.Metrika({ id:34885860, clickmap:true, trackLinks:true, accurateTrackBounce:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/34885860" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->    
-  </body>
+
+        <!-- CSS -->
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <!-- <link rel="stylesheet" href="css/animate.css"> -->
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/likely.css">
+        
+
+        <!-- Js -->
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="http://code.jquery.com/jquery.js"></script>
+<!--        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+-->    
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+       <script src="js/likely.js"></script>       
+
+    <!--GOOGLE MAP
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+     <script>
+        var map;
+        function initialize() {
+          var mapOptions = {
+            zoom: 8,
+            center: new google.maps.LatLng(-34.397, 150.644),
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+          };
+          map = new google.maps.Map(document.getElementById('map-canvas'),
+              mapOptions);
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>   -->     
+<!--        <script src="js/wow.min.js"></script>
+        <script>
+         new WOW(
+            ).init();
+        </script>
+   
+         <script>
+        //   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        //   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        //   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        //   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        //   ga('create', 'UA-57708809-1', 'auto');
+        //   ga('send', 'pageview');
+         </script>
+-->              
+
+    </head>
+    <body>
+
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-xs-6 col-sm-3">
+                    <a href="#" class="logo">
+                        <i class="fa fa-signal fa-2x"></i>
+                        <span>299 design</span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-xs-6 col-sm-6">
+                    <div class="menu">
+                        <nav class="navbar navbar-default" role="navigation">
+                            <div class="container-fluid">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                    <ul class="nav navbar-nav">
+                                        <li><a href="#banner">Главная</a></li>
+                                        <li><a href="#service">Всё включено</a></li>
+                                        <li><a href="#feature">Зачем</a></li>
+                                        <li><a href="#utility">Почём</a></li>
+                                        <li><a href="#subscribe">Контакты</a></li>
+                                    </ul>
+                                  
+                                </div><!-- /.navbar-collapse -->
+                            </div><!-- /.container-fluid -->
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-12 col-sm-3">
+<!--                     <ul class="social-info">
+    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+</ul> -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+
+
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="block">
+                        <img class="app-img img-responsive" src="images/01.jpg" alt="">
+                    </div>
+                    
+                </div>
+                <div class="col-md-6 col-md-offset-1 col-sm-6">
+                    <div class="block">
+                        <h1>
+                            Сайты для предпринимателей
+                        </h1>
+                        <p>
+                            Разработаем для малого бизнеса современный сайт<br>всего за <strong>20$</strong>
+                        </p>
+
+                         <ul class="download-btn">
+                            <li>
+                                <a href="#subscribe" class="btn btn-primary">Заказать сайт</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="service">
+        <div class="container">
+            <div class="service-wrapper">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="block">
+                            <h1>Всё включено.</h1>        
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                     <div class="col-md-3 col-sm-6">
+                        <div class="block">
+                            <div class="icon">
+                                <i class="fa  fa-laptop"></i>
+                            </div>
+                            <h3>Современный дизайн</h3>
+                            <p>В итоге Вы получите информативный, легкий и красивый сайт.</p>
+                        </div>
+                    </div>                    
+                    <div class="col-md-3 col-sm-6">
+                        <div class="block" >
+                            <div class="icon">
+                                <i class="fa  fa-fort-awesome"></i>
+                            </div>
+                            <h3>Бесплатный домен</h3>
+                            <p>Мы вместе придумаем имя Вашему сайту и зарегистрируем его совершенно бесплатно.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="block">
+                            <div class="icon">
+                                <i class="fa fa-server"></i>
+                            </div>
+                            <h3>Бесплатный хостинг</h3>
+                            <p>Ваш сайт будет расположен на быстрых и бесперебойных серверах, и за это Вам тоже не надо платить.</p>
+                        </div>
+                    </div>                    
+                    
+                    <div class="col-md-3 col-sm-6">
+                        <div class="block">
+                            <div class="icon">
+                               <i class="fa fa-flag"></i> 
+                            </div>
+                            
+                            <h3>Регистрация в поисковиках</h3>
+                            <p>Ваш сайт будет зарегистрирован в поисковых службах Google и Yandex.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+   
+    
+
+
+
+
+
+    <section id="feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay=".8s">
+                    <h2 class="title">В итоге у Вас:</h2>
+
+                    <div class="feature-item">
+
+                        <div class="media">
+                            <div class="pull-left icon" href="#">
+                                <i class="fa fa-fort-awesome"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Свое представительство в интернете</h4>
+                                <p>О Вас узнает Google и непременно раскажет об этом всем желающим :)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+
+                        <div class="media">
+                            <div class="pull-left icon" href="#">
+                                <i class="fa fa-money"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Минимальные затраты на рекламу</h4>
+                                <p>Сайт будет настроен таким образом, что клиент с легкостью найдет Вас.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+
+                        <div class="media">
+                            <div class="pull-left icon" href="#">
+                                <i class="fa fa-line-chart"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Преимущество перед конкурентами</h4>
+                                <p>Добро пожаловать в мир интернет-технологий!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay=".8s">
+                    <div class="block">
+                        <img class="img-responsive" src="images/fly-guy.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="utility">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".8s">
+                    <img class="img-responsive" src="images/mockup.png" alt="">
+                </div>
+                <div class="col-md-6 col-sm-6 wow fadeInDown" data-wow-delay=".8s">
+                    <div class="block">
+                        <h2>Amazing Compatibility.</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com Neque porro quisqua
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="utility-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay=".8s">
+                    <div class="block">
+                        <h2>Remarkable Features</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com Neque porro quisquam est, 
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay=".8s">
+                    <img class="img-responsive" src="images/app-screen.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="subscribe" >
+        <div class="container">
+            <div class="row">
+                <div class="block">
+                <div class="col-md-6 col-sm-6">
+                    <img class="img-responsive" src="images/05.jpg" alt="">
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="title text-center">
+                        <h2>Как заказать сайт</h2>
+                        <h4>просто напишите письмо</h4>
+                    </div>
+                    <form id="contactform" class="form-horizontal text-center"  role="form" method="POST">
+                        <div class="form-group">
+                            <div class="input-field">
+                                    <input class="form-control" type="text" name="name" placeholder="Ваше имя">
+                            </div>
+                            <div class="input-field">
+                                <input class="form-control" type="email" name="_replyto" placeholder="Ваш email или номер телефона">
+                            </div>
+                            <div class="input-field">
+                                <textarea class="form-control"  name="message" placeholder="Ваше сообщение"></textarea>
+                            </div>
+                            <input type="hidden" name="_next" value="//299.pp.ua" />
+                            <input type="hidden" name="_subject" value="Website contact" />
+                            <input type="text" name="_gotcha" style="display:none" />
+                            <button type="submit" class="btn btn-primary"><i class="fa fa-envelope"></i> Отправить</button>  
+                        </div>
+                    </form>                        
+                    <script>
+                    </script>                        
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12">
+                   <div class="flogo">
+                        <a href="#" class="logo">
+                            <i class="fa fa-signal fa-2x"></i>
+                            <span class="logotext">299 design</span>
+                        </a>
+                    </div>
+<div class="likely">
+  <div class="facebook">Поделиться</div>
+  <div class="gplus">Плюсануть</div>
+  <div class="vkontakte">Поделиться</div>
+  <div class="odnoklassniki">Класснуть</div>
+</div>    
+
+<!--                     <p>Copyright © 2014 Themefisher. All rights reserved. Designed & developed by themefisher.com</p> -->
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
 </html>
